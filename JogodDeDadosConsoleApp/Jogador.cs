@@ -9,6 +9,12 @@ namespace JogodDeDadosConsoleApp
     class Jogador
     {
         public int posicao;
+        public string nome; 
+
+        public Jogador(string nomeJogador)
+        {
+          nome = nomeJogador;
+        }
 
         public void AvancarPosicao(int resultadoLancamento)
         {
